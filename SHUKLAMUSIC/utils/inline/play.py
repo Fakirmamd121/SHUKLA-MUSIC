@@ -34,25 +34,25 @@ def stream_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
     if 0 < umm <= 10:
-        bar = "꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩـ꯭꯭INDIAN-CODERS"
+        bar = "꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩـ꯭꯭OBITO-UCHIYA"
     elif 10 < umm < 20:
-        bar = "꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩـ꯭꯭꯭INDIAN-CODERSﮩ٨"
+        bar = "꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩـ꯭꯭꯭OBITO-UCHIYAﮩ٨"
     elif 20 <= umm < 30:
-        bar = "꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩINDIAN-CODERSـ꯭꯭꯭꯭ﮩ٨꯭ﮩ٨꯭ـﮩ"
+        bar = "꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩOBITO-UCHIYAـ꯭꯭꯭꯭ﮩ٨꯭ﮩ٨꯭ـﮩ"
     elif 30 <= umm < 40:
-        bar = "꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩINDIAN-CODERSـ꯭꯭꯭꯭ﮩ٨꯭ﮩ٨꯭ـﮩ"
+        bar = "꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩOBITO-UCHIYAـ꯭꯭꯭꯭ﮩ٨꯭ﮩ٨꯭ـﮩ"
     elif 40 <= umm < 50:
-        bar = "꯭ﮩ٨꯭ـﮩ꯭ـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـINDIAN-CODERSـ꯭꯭꯭꯭ﮩ٨꯭ـﮩ꯭ـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩ꯭ـ꯭꯭꯭꯭"
+        bar = "꯭ﮩ٨꯭ـﮩ꯭ـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـOBITO-UCHIYAـ꯭꯭꯭꯭ﮩ٨꯭ـﮩ꯭ـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩ꯭ـ꯭꯭꯭꯭"
     elif 50 <= umm < 60:
-        bar = "꯭ﮩـﮩ꯭ـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩ꯭ـ꯭꯭꯭ﮩINDIAN-CODERSـﮩ꯭ـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩ꯭ـ꯭꯭꯭꯭"
+        bar = "꯭ﮩـﮩ꯭ـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩ꯭ـ꯭꯭꯭ﮩOBITO-UCHIYAـﮩ꯭ـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩ꯭ـ꯭꯭꯭꯭"
     elif 60 <= umm < 70:
-        bar = "꯭ﮩ٨꯭ـﮩـ꯭꯭꯭꯭INDIAN-CODERSﮩ٨ـ꯭꯭꯭꯭꯭ﮩ٨꯭ــﮩ꯭ﮩ٨꯭ـﮩ"
+        bar = "꯭ﮩ٨꯭ـﮩـ꯭꯭꯭꯭OBITO-UCHIYAﮩ٨ـ꯭꯭꯭꯭꯭ﮩ٨꯭ــﮩ꯭ﮩ٨꯭ـﮩ"
     elif 70 <= umm < 80:
-        bar = "꯭ﮩ٨꯭INDIAN-CODERSـﮩـ꯭꯭꯭꯭ﮩ٨ـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ"
+        bar = "꯭ﮩ٨꯭OBITO-UCHIYAـﮩـ꯭꯭꯭꯭ﮩ٨ـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ"
     elif 80 <= umm < 95:
-        bar = "ـ꯭꯭꯭꯭INDIAN-CODERSﮩ٨꯭ﮩ٨꯭ـﮩـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ"
+        bar = "ـ꯭꯭꯭꯭OBITO-UCHIYAﮩ٨꯭ﮩ٨꯭ـﮩـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ"
     else:
-        bar = "ـ꯭꯭꯭꯭INDIAN-CODERSﮩ٨꯭ﮩ٨꯭ـﮩـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ"
+        bar = "ـ꯭꯭꯭꯭OBITO-UCHIYAﮩ٨꯭ﮩ٨꯭ـﮩـ꯭꯭꯭꯭꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ꯭ﮩ٨꯭ـﮩ"
     buttons = [
                 [
             InlineKeyboardButton(
